@@ -2,15 +2,15 @@
 §  User Macros
 § ==========================================================
 
-SetMacro( 'AUTHOR',      'YOUR NAME' )
-SetMacro( 'AUTHORREF',   '' )
-SetMacro( 'COMPANY',     '' )
+SetMacro( 'AUTHOR',      'Josh King' )
+SetMacro( 'AUTHORREF',   'jheretic' )
+SetMacro( 'COMPANY',     'The Open Technology Institute' )
 SetMacro( 'COPYRIGHT',   'Copyright (c) |YEAR|, |AUTHOR|' )
-SetMacro( 'EMAIL',       '' )
-SetMacro( 'LICENSE',     'GNU General Public License' )
-SetMacro( 'ORGANIZATION','' )
+SetMacro( 'EMAIL',       'jking@chambana.net' )
+SetMacro( 'LICENSE',     'GNU General Public License v3' )
+SetMacro( 'ORGANIZATION','The Open Technology Institute' )
 
-SetStyle( 'C' )
+SetStyle( 'Commotion' )
 
 § ==========================================================
 §  File Includes and Shortcuts
@@ -39,5 +39,13 @@ IncludeFile( 'cpp.cpp.template'          )
 IncludeFile( 'cpp.idioms.template'       )
 IncludeFile( 'cpp.preprocessor.template' )
 IncludeFile( 'cpp.statements.template'   )
+== ENDSTYLES ==
+§
+== USE STYLES : Commotion ==
+IncludeFile( 'commotion.comments.template'     )
+IncludeFile( 'commotion.cpp.template'          )
+IncludeFile( 'commotion.idioms.template'       )
+IncludeFile( 'commotion.preprocessor.template' )
+IncludeFile( 'commotion.statements.template'   )
 == ENDSTYLES ==
 
